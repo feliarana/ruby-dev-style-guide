@@ -2,11 +2,14 @@ Workspace Shared Style
 
 ## Getting Started
 
-These instructions will help you follow the style used on your local machine for development and testing purposes. 
+These instructions will help you follow the style used on your local machine for development and testing purposes.
 
 ### Prerequisites
 
 ```
+Be sure that you have ruby and ruby-bundler on your machine.
+RVM is recommended for ruby version control.
+
 Linux. This guide was made using Linux Mint 19 (should also work if you have Ubuntu 18.04).
 MacOS.
 Windows.
@@ -16,9 +19,18 @@ Windows.
 
 How to get a development env running.
 
+1. First you should pick the config folder based on whatever IDE you are using.
+2. Inside you will find a install.sh that will install the IDE for you:
+3. IMPORTANT: On every project, be sure to run this command:
 ```
-1. First you should pick the config folder based on whatever IDE you are using. 
-2. Inside you will find a install.sh that will install the IDE for you.
+$ gem install rubocop
+
+```
+
+
+```
+$ sudo chmod 755 install.sh
+$ bash install.sh
 
 ```
 
