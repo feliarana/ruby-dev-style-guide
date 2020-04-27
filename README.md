@@ -23,8 +23,9 @@ How to get a development env running.
 ```
 
 ### Style Guide
-Sublime Text using this repo's settings (numeration explained below):
-![alt text](https://drive.google.com/file/d/15WntCeIC57uPRr_sYFENDpaGTYZfRnO-/view?usp=sharing)
+Using this repo's settings (numeration explained below):
+
+![Sublime Text](https://drive.google.com/file/d/15WntCeIC57uPRr_sYFENDpaGTYZfRnO-/view)
 
 ```
 1. Git blame inline.
