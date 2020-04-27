@@ -22,25 +22,15 @@ How to get a development env running.
 
 ```
 
-
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
+### Style Guide
+Sublime Text using this repo's settings (numeration explained below):
+![alt text](https://drive.google.com/file/d/15WntCeIC57uPRr_sYFENDpaGTYZfRnO-/view?usp=sharing)
 
 ```
-Give an example
-```
-
-### And coding style tests
-
-
-```
-Give an example
+1. Git blame inline.
+2. EOL Mark.
+3. Linting ruby offenses.
+4. When positioning on offense, we can see what we are doing wrong. (See * [The Rubydoc](www.rubydoc.info) for more references).
 ```
 
 ## Tools Used
