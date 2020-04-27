@@ -55,7 +55,7 @@ Text Code Editing:
 
 ## Contributing
 
-* **Felipe Arana** - *Initial work* - [feliarana](https://github.com/feliarana)
+* **Felipe Arana** - [feliarana](https://github.com/feliarana)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
