@@ -9,7 +9,7 @@ These instructions will help you follow the style used on your local machine for
 ```
 Linux. This guide was made using Linux Mint 19 (should also work if you have Ubuntu 18.04).
 MacOS.
-Windows?
+Windows.
 ```
 
 ### Installing
@@ -49,7 +49,3 @@ Text Code Editing:
 * **Felipe Arana** - [feliarana](https://github.com/feliarana)
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
