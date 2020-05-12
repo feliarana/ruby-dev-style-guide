@@ -1,5 +1,0 @@
-NodeJS
-com.wix.react-templates
-me.aristotll.ruby.rdoc.adder
-ru.adelf.idea.dotenv
-zielu.gittoolbox

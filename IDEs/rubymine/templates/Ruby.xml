@@ -1,0 +1,6 @@
+<templateSet group="Ruby">
+  <template name="cl" value="classify { |$E$| $END$ }" description="classify" toReformat="false" toShortenFQNames="true">
+    <variable name="E" expression="" defaultValue="" alwaysStopAt="true" />
+    <context />
+  </template>
+</templateSet>

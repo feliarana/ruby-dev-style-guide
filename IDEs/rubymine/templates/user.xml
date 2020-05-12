@@ -1,0 +1,9 @@
+<templateSet group="user">
+  <template name="react test" value="import React from 'react';&#10;import { shallow } from 'enzyme';&#10;&#10;describe('$COMPONENT_NAME$', () =&gt; {&#10;  let props;&#10;  let render;&#10;&#10;  beforeEach(() =&gt; {&#10;    props = {};&#10;    render = componentProps =&gt; shallow(&lt;$COMPONENT_NAME$ {...componentProps} /&gt;);&#10;  });&#10;&#10;  it('should render without crashing', () =&gt; {&#10;    expect(() =&gt; render(props)).not.toThrowError();&#10;  });&#10;});" description="component test file" toReformat="true" toShortenFQNames="true">
+    <variable name="COMPONENT_NAME" expression="camelCase(String)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="ES6_STATEMENT" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
