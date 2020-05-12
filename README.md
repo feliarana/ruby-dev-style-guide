@@ -19,6 +19,11 @@ Windows.
 
 How to get a development env running.
 
+Install rubocop global version.
+```
+sudo apt install rubocop
+```
+
 1. First you should pick the config folder based on whatever IDE you are using.
 2. Inside you will find a install.sh that will install the IDE for you:
 3. IMPORTANT: On every project, be sure to run this command:
