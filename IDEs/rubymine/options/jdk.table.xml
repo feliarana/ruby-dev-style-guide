@@ -1,0 +1,211 @@
+<application>
+  <component name="ProjectJdkTable">
+    <jdk version="2">
+      <name value="ruby-2.5.1-p57" />
+      <type value="RUBY_SDK" />
+      <version value="ver.2.5.1p57 ( revision 63029) p57" />
+      <homePath value="/usr/bin/ruby" />
+      <roots>
+        <classPath>
+          <root type="composite">
+            <root url="file:///usr/lib/ruby/vendor_ruby/2.5.0" type="simple" />
+            <root url="file:///usr/lib/x86_64-linux-gnu/ruby/vendor_ruby/2.5.0" type="simple" />
+            <root url="file:///usr/lib/ruby/vendor_ruby" type="simple" />
+            <root url="file:///usr/lib/ruby/2.5.0" type="simple" />
+            <root url="file:///usr/lib/x86_64-linux-gnu/ruby/2.5.0" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/ruby/rubystubs/rubystubs25" type="simple" />
+          </root>
+        </classPath>
+        <sourcePath>
+          <root type="composite">
+            <root url="file:///usr/lib/ruby/vendor_ruby/2.5.0" type="simple" />
+            <root url="file:///usr/lib/x86_64-linux-gnu/ruby/vendor_ruby/2.5.0" type="simple" />
+            <root url="file:///usr/lib/ruby/vendor_ruby" type="simple" />
+            <root url="file:///usr/lib/ruby/2.5.0" type="simple" />
+            <root url="file:///usr/lib/x86_64-linux-gnu/ruby/2.5.0" type="simple" />
+            <root url="file://$APPLICATION_HOME_DIR$/plugins/ruby/rubystubs/rubystubs25" type="simple" />
+          </root>
+        </sourcePath>
+      </roots>
+      <additional NORMALIZED_VERSION_STRING="ver.2.5.1p57 ( revision 63029) p57" version="1" GEMS_BIN_DIR_PATH="/usr/local/bin">
+        <VERSION_MANAGER ID="system" />
+        <RbConfig>
+          <item key="AR" value="ar" />
+          <item key="ARFLAGS" value="rcD " />
+          <item key="AS" value="as" />
+          <item key="ASMEXT" value="S" />
+          <item key="BUILTIN_TRANSSRCS" value=" enc/trans/newline.c" />
+          <item key="CC" value="gcc" />
+          <item key="CCDLFLAGS" value="-fPIC" />
+          <item key="CC_VERSION" value="gcc --version" />
+          <item key="CC_VERSION_MESSAGE" value="gcc (Ubuntu 7.4.0-1ubuntu1~18.04.1) 7.4.0&#10;Copyright (C) 2017 Free Software Foundation, Inc.&#10;This is free software; see the source for copying conditions.  There is NO&#10;warranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE." />
+          <item key="CFLAGS" value="-g -O2 -fdebug-prefix-map=/build/ruby2.5-B0MvC_/ruby2.5-2.5.1=. -fstack-protector-strong -Wformat -Werror=format-security -fPIC" />
+          <item key="CHDIR" value="cd -P" />
+          <item key="CONFIGURE" value="configure" />
+          <item key="COUTFLAG" value="-o " />
+          <item key="CP" value="cp" />
+          <item key="CPP" value="gcc -E" />
+          <item key="CPPFLAGS" value="-Wdate-time -D_FORTIFY_SOURCE=2  " />
+          <item key="CPPOUTFILE" value="-o conftest.i" />
+          <item key="CROSS_COMPILING" value="no" />
+          <item key="CXX" value="g++" />
+          <item key="CXXFLAGS" value="-g -O2 -fdebug-prefix-map=/build/ruby2.5-B0MvC_/ruby2.5-2.5.1=. -fstack-protector-strong -Wformat -Werror=format-security" />
+          <item key="DLDFLAGS" value="-Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,now -Wl,--compress-debug-sections=zlib" />
+          <item key="DLDLIBS" value=" -lc" />
+          <item key="DLEXT" value="so" />
+          <item key="DLNOBJ" value="dln.o" />
+          <item key="ECHO_N" value="-n" />
+          <item key="EGREP" value="/bin/grep -E" />
+          <item key="ENABLE_SHARED" value="yes" />
+          <item key="EXTOUT" value=".ext" />
+          <item key="GCC" value="yes" />
+          <item key="GIT" value="git" />
+          <item key="GNU_LD" value="yes" />
+          <item key="GREP" value="/bin/grep" />
+          <item key="HAVE_GIT" value="no" />
+          <item key="INSTALL" value="/usr/bin/install -c" />
+          <item key="INSTALL_DATA" value="/usr/bin/install -c -m 644" />
+          <item key="INSTALL_PROGRAM" value="/usr/bin/install -c" />
+          <item key="INSTALL_SCRIPT" value="/usr/bin/install -c" />
+          <item key="INSTALL_STATIC_LIBRARY" value="no" />
+          <item key="LD" value="ld" />
+          <item key="LDFLAGS" value="-L. -Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,now -fstack-protector -rdynamic -Wl,-export-dynamic" />
+          <item key="LDSHARED" value="gcc -shared" />
+          <item key="LDSHAREDXX" value="g++ -shared" />
+          <item key="LIBEXT" value="a" />
+          <item key="LIBPATHENV" value="LD_LIBRARY_PATH" />
+          <item key="LIBPATHFLAG" value=" -L%s" />
+          <item key="LIBRUBY" value="libruby-2.5.so.2.5.1" />
+          <item key="LIBRUBYARG" value="-lruby-2.5" />
+          <item key="LIBRUBYARG_SHARED" value="-lruby-2.5" />
+          <item key="LIBRUBYARG_STATIC" value="-lruby-2.5-static" />
+          <item key="LIBRUBY_A" value="libruby-2.5-static.a" />
+          <item key="LIBRUBY_ALIASES" value="libruby-2.5.so.2.5 libruby-2.5.so" />
+          <item key="LIBRUBY_RELATIVE" value="no" />
+          <item key="LIBRUBY_SO" value="libruby-2.5.so.2.5.1" />
+          <item key="LIBRUBY_SONAME" value="libruby-2.5.so.2.5" />
+          <item key="LIBS" value="-lpthread -lgmp -ldl -lcrypt -lm " />
+          <item key="LN_S" value="ln -s" />
+          <item key="MAJOR" value="2" />
+          <item key="MAKEDIRS" value="/bin/mkdir -p" />
+          <item key="MAKEFILES" value="Makefile GNUmakefile" />
+          <item key="MANTYPE" value="doc" />
+          <item key="MINOR" value="5" />
+          <item key="MKDIR_P" value="/bin/mkdir -p" />
+          <item key="NM" value="nm" />
+          <item key="NULLCMD" value=":" />
+          <item key="OBJCOPY" value=":" />
+          <item key="OBJDUMP" value="objdump" />
+          <item key="OBJEXT" value="o" />
+          <item key="OUTFLAG" value="-o " />
+          <item key="PACKAGE" value="ruby" />
+          <item key="PATCHLEVEL" value="57" />
+          <item key="PATH_SEPARATOR" value=":" />
+          <item key="POSTLINK" value=":" />
+          <item key="PRELOADENV" value="LD_PRELOAD" />
+          <item key="PREP" value="miniruby" />
+          <item key="RANLIB" value="ranlib" />
+          <item key="RI_BASE_NAME" value="ri" />
+          <item key="RM" value="rm -f" />
+          <item key="RMALL" value="rm -fr" />
+          <item key="RMDIR" value="rmdir --ignore-fail-on-non-empty" />
+          <item key="RMDIRS" value="rmdir --ignore-fail-on-non-empty -p" />
+          <item key="RUBYW_BASE_NAME" value="rubyw" />
+          <item key="RUBY_API_VERSION" value="2.5" />
+          <item key="RUBY_BASE_NAME" value="ruby" />
+          <item key="RUBY_EXEC_PREFIX" value="/usr" />
+          <item key="RUBY_INSTALL_NAME" value="ruby2.5" />
+          <item key="RUBY_LIB_VERSION_STYLE" value="3&#9;/* full */" />
+          <item key="RUBY_PROGRAM_VERSION" value="2.5.1" />
+          <item key="RUBY_SO_NAME" value="ruby-2.5" />
+          <item key="RUBY_VERSION_NAME" value="ruby-2.5.0" />
+          <item key="SHELL" value="/bin/bash" />
+          <item key="SOEXT" value="so" />
+          <item key="SOLIBS" value="-lpthread -lgmp -ldl -lcrypt -lm " />
+          <item key="STRIP" value="strip -S -x" />
+          <item key="TEENY" value="1" />
+          <item key="TEST_RUNNABLE" value="yes" />
+          <item key="THREAD_MODEL" value="pthread" />
+          <item key="UNICODE_VERSION" value="10.0.0" />
+          <item key="USE_RUBYGEMS" value="YES" />
+          <item key="WERRORFLAG" value="-Werror" />
+          <item key="arch" value="x86_64-linux-gnu" />
+          <item key="archdir" value="/usr/lib/x86_64-linux-gnu/ruby/2.5.0" />
+          <item key="archincludedir" value="/usr/include/x86_64-linux-gnu" />
+          <item key="archlibdir" value="/usr/lib/x86_64-linux-gnu" />
+          <item key="bindir" value="/usr/bin" />
+          <item key="build" value="x86_64-pc-linux-gnu" />
+          <item key="build_cpu" value="x86_64" />
+          <item key="build_os" value="linux-gnu" />
+          <item key="build_vendor" value="pc" />
+          <item key="cflags" value="-O3 -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wno-tautological-compare -Wno-parentheses-equality -Wno-constant-logical-operand -Wno-self-assign -Wunused-variable -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration -Wdeprecated-declarations -Wmisleading-indentation -Wno-packed-bitfield-compat -Wsuggest-attribute=noreturn -Wsuggest-attribute=format -Wimplicit-fallthrough=0 -Wduplicated-cond -Wrestrict" />
+          <item key="configure_args" value=" '--prefix=/usr' '--enable-multiarch' '--target=x86_64-linux-gnu' '--program-suffix=2.5' '--with-soname=ruby-2.5' '--enable-shared' '--disable-rpath' '--with-sitedir=/usr/local/lib/site_ruby' '--with-sitearchdir=/usr/local/lib/x86_64-linux-gnu/site_ruby' '--runstatedir=/var/run' '--localstatedir=/var' '--sysconfdir=/etc' '--enable-ipv6' '--with-dbm-type=gdbm_compat' 'CFLAGS=-g -O2 -fdebug-prefix-map=/build/ruby2.5-B0MvC_/ruby2.5-2.5.1=. -fstack-protector-strong -Wformat -Werror=format-security' 'CPPFLAGS=-Wdate-time -D_FORTIFY_SOURCE=2' 'CXXFLAGS=-g -O2 -fdebug-prefix-map=/build/ruby2.5-B0MvC_/ruby2.5-2.5.1=. -fstack-protector-strong -Wformat -Werror=format-security' 'FCFLAGS=-g -O2 -fdebug-prefix-map=/build/ruby2.5-B0MvC_/ruby2.5-2.5.1=. -fstack-protector-strong' 'FFLAGS=-g -O2 -fdebug-prefix-map=/build/ruby2.5-B0MvC_/ruby2.5-2.5.1=. -fstack-protector-strong' 'GCJFLAGS=-g -O2 -fdebug-prefix-map=/build/ruby2.5-B0MvC_/ruby2.5-2.5.1=. -fstack-protector-strong' 'LDFLAGS=-Wl,-Bsymbolic-functions -Wl,-z,relro -Wl,-z,now' 'OBJCFLAGS=-g -O2 -fdebug-prefix-map=/build/ruby2.5-B0MvC_/ruby2.5-2.5.1=. -fstack-protector-strong -Wformat -Werror=format-security' 'OBJCXXFLAGS=-g -O2 -fdebug-prefix-map=/build/ruby2.5-B0MvC_/ruby2.5-2.5.1=. -fstack-protector-strong -Wformat -Werror=format-security' 'target_alias=x86_64-linux-gnu'" />
+          <item key="cxxflags" value="-O3 -ggdb3 -Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wno-tautological-compare -Wno-parentheses-equality -Wno-constant-logical-operand -Wno-self-assign -Wunused-variable -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration -Wdeprecated-declarations -Wmisleading-indentation -Wno-packed-bitfield-compat -Wsuggest-attribute=noreturn -Wsuggest-attribute=format -Wimplicit-fallthrough=0 -Wduplicated-cond -Wrestrict" />
+          <item key="datadir" value="/usr/share" />
+          <item key="datarootdir" value="/usr/share" />
+          <item key="debugflags" value="-ggdb3" />
+          <item key="docdir" value="/usr/share/doc/ruby" />
+          <item key="dvidir" value="/usr/share/doc/ruby" />
+          <item key="exec" value="exec" />
+          <item key="exec_prefix" value="/usr" />
+          <item key="host" value="x86_64-pc-linux-gnu" />
+          <item key="host_cpu" value="x86_64" />
+          <item key="host_os" value="linux-gnu" />
+          <item key="host_vendor" value="pc" />
+          <item key="htmldir" value="/usr/share/doc/ruby" />
+          <item key="includedir" value="/usr/include" />
+          <item key="infodir" value="/usr/share/info" />
+          <item key="libdir" value="/usr/lib" />
+          <item key="libdirname" value="archlibdir" />
+          <item key="libexecdir" value="/usr/libexec" />
+          <item key="localedir" value="/usr/share/locale" />
+          <item key="localstatedir" value="/var" />
+          <item key="mandir" value="/usr/share/man" />
+          <item key="oldincludedir" value="/usr/include" />
+          <item key="optflags" value="-O3" />
+          <item key="pdfdir" value="/usr/share/doc/ruby" />
+          <item key="prefix" value="/usr" />
+          <item key="program_transform_name" value="s&amp;$&amp;2.5&amp;;s&amp;^&amp;&amp;" />
+          <item key="psdir" value="/usr/share/doc/ruby" />
+          <item key="ridir" value="/usr/share/ri" />
+          <item key="ruby_install_name" value="ruby2.5" />
+          <item key="ruby_pc" value="ruby-2.5.pc" />
+          <item key="ruby_version" value="2.5.0" />
+          <item key="rubyarchdir" value="/usr/lib/x86_64-linux-gnu/ruby/2.5.0" />
+          <item key="rubyarchhdrdir" value="/usr/include/x86_64-linux-gnu/ruby-2.5.0" />
+          <item key="rubyarchprefix" value="/usr/lib/x86_64-linux-gnu/ruby" />
+          <item key="rubyhdrdir" value="/usr/include/ruby-2.5.0" />
+          <item key="rubylibdir" value="/usr/lib/ruby/2.5.0" />
+          <item key="rubylibprefix" value="/usr/lib/ruby" />
+          <item key="rubysitearchprefix" value="/usr/lib/x86_64-linux-gnu/ruby" />
+          <item key="runstatedir" value="/var/run" />
+          <item key="sbindir" value="/usr/sbin" />
+          <item key="setup" value="Setup" />
+          <item key="sharedstatedir" value="/usr/com" />
+          <item key="sitearch" value="x86_64-linux-gnu" />
+          <item key="sitearchdir" value="/usr/local/lib/x86_64-linux-gnu/site_ruby" />
+          <item key="sitearchhdrdir" value="/usr/include/x86_64-linux-gnu/ruby-2.5.0/site_ruby" />
+          <item key="sitearchincludedir" value="/usr/include/x86_64-linux-gnu" />
+          <item key="sitearchlibdir" value="/usr/lib/x86_64-linux-gnu" />
+          <item key="sitedir" value="/usr/local/lib/site_ruby" />
+          <item key="sitehdrdir" value="/usr/include/ruby-2.5.0/site_ruby" />
+          <item key="sitelibdir" value="/usr/local/lib/site_ruby/2.5.0" />
+          <item key="strict_warnflags" value="-std=gnu99" />
+          <item key="sysconfdir" value="/etc" />
+          <item key="target" value="x86_64-pc-linux-gnu" />
+          <item key="target_alias" value="x86_64-linux-gnu" />
+          <item key="target_cpu" value="x86_64" />
+          <item key="target_os" value="linux-gnu" />
+          <item key="target_vendor" value="pc" />
+          <item key="topdir" value="/usr/lib/x86_64-linux-gnu/ruby/2.5.0" />
+          <item key="vendorarchdir" value="/usr/lib/x86_64-linux-gnu/ruby/vendor_ruby/2.5.0" />
+          <item key="vendorarchhdrdir" value="/usr/include/x86_64-linux-gnu/ruby-2.5.0/vendor_ruby" />
+          <item key="vendordir" value="/usr/lib/ruby/vendor_ruby" />
+          <item key="vendorhdrdir" value="/usr/include/ruby-2.5.0/vendor_ruby" />
+          <item key="vendorlibdir" value="/usr/lib/ruby/vendor_ruby/2.5.0" />
+          <item key="warnflags" value="-Wall -Wextra -Wno-unused-parameter -Wno-parentheses -Wno-long-long -Wno-missing-field-initializers -Wno-tautological-compare -Wno-parentheses-equality -Wno-constant-logical-operand -Wno-self-assign -Wunused-variable -Wimplicit-int -Wpointer-arith -Wwrite-strings -Wdeclaration-after-statement -Wimplicit-function-declaration -Wdeprecated-declarations -Wmisleading-indentation -Wno-packed-bitfield-compat -Wsuggest-attribute=noreturn -Wsuggest-attribute=format -Wimplicit-fallthrough=0 -Wduplicated-cond -Wrestrict" />
+        </RbConfig>
+      </additional>
+    </jdk>
+  </component>
+</application>
